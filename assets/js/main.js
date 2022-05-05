@@ -74,7 +74,7 @@ sr.reveal(`.home__data, .home__img,
             .app__data, .app__img,
             .contact__data, 
             .footer__content`, {
-    interval: 200
+    interval: 280
 })
 
 

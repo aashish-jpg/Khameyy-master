@@ -409,9 +409,25 @@ img{
 
 .app__img{
   width: 230px;
-  justify-self: center;
+  justify-content: center;
 }
 
+
+/* Investors */
+
+.inv_img{
+  display: flex;
+  flex-direction: column;
+  width: 120%;
+  height: 460px;
+  border-radius: 1.3rem;
+}
+.img{
+  margin-top: 12.8rem;
+  height: 460px;
+  border-radius: 1.3rem;
+  width: 140%;
+}
 /*========== CONTACT ==========*/
 .contact__container{
   text-align: center;
@@ -606,6 +622,8 @@ textarea {
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-left: 3rem;
+  margin-top: 1.2rem;
 }
 
 .contact-form {
